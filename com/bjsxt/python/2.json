@@ -7129,7 +7129,7 @@
 	},
 	"bbgReport" : {
 		"CreditDetail" : {
-			"Loan" : {
+			"Loan" : [{
 				"ContractInfo" : {
 					"Type" : "个人住房贷款",
 					"PaymentCyc" : "360",
@@ -7143,7 +7143,7 @@
 					"ScheduledPaymentAmount" : "4510",
 					"Balance" : "756486"
 				}
-			}
+			}]
 		},
 		"Header" : {
 			"MessageHeader" : {
