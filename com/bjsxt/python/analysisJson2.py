@@ -1,5 +1,8 @@
 import json
 
+# 用于结息 json文件
+
+
 # 输出结果文件
 resultFile2 = open('resultFile2.txt', 'w',encoding='utf-8')
 # 初始化变量
