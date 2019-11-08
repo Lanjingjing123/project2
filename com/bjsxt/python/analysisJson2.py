@@ -4,13 +4,13 @@ import json
 
 
 # 输出结果文件
-resultFile2 = open('resultFile2.txt', 'w',encoding='utf-8')
+resultFile2 = open('resultFile2.txt', 'w', encoding='utf-8')
 # 初始化变量
 _id = ''
 userRealname = ''
 userIdcardNo = ''
 
-file = open('2.json','r',encoding='utf8')
+file = open('2.json', 'r', encoding='utf8')
 lines = file.readlines()
 strALl = ''
 for line in lines:
@@ -26,8 +26,6 @@ for sigleJson in jsonArr:
     # jsonObject为dict类型--dict_keys(['applyInfo', 'bbgScoreCardResult', 'bbgReport'])
 
     jsonObject = json.loads(sigleJson)
-
-
     print(jsonObject)
     # 申请信息 applyInfo <class 'dict'>
     applyInfo = jsonObject['applyInfo']
@@ -49,7 +47,7 @@ for sigleJson in jsonArr:
             value = item['value']
 
             str = str + '%s:%s,' % (title, value)
-            print(title+':'+value+',',end='')
+            print(title+':'+value+',', end='')
             pass
         print('')
         print(str)
