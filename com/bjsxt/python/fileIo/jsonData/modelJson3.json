@@ -1,0 +1,207 @@
+{
+  'applyInfo': {
+    '_id': '234410',
+    'userRealname': '孙',
+    'userIdcardNo': '142366'
+  },
+  'bbgScoreCardResult': {
+    'contentList': [
+      {
+        'title': '性别',
+        'value': '男'
+      },
+      {
+        'title': '城市等级',
+        'value': 'D'
+      },
+      {
+        'title': '年龄',
+        'value': '37'
+      },
+      {
+        'title': '近2年累计逾期次数',
+        'value': '15'
+      },
+      {
+        'title': '违约账户数占比',
+        'value': '缺失'
+      },
+      {
+        'title': '信用年限',
+        'value': '3.17'
+      },
+      {
+        'title': '单笔非抵押类贷款最高额度',
+        'value': '20000.0000'
+      },
+      {
+        'title': '非结清非抵押类贷款余额占比',
+        'value': '1.0000'
+      },
+      {
+        'title': '3个月多头数',
+        'value': '4'
+      },
+      {
+        'title': '近一年银行机构批核率',
+        'value': '0.1429'
+      },
+      {
+        'title': '信用卡总额度',
+        'value': '101000'
+      },
+      {
+        'title': '信用卡额度使用率',
+        'value': '0.41'
+      },
+      {
+        'title': '烟草客户档位',
+        'value': '12'
+      },
+      {
+        'title': '近1年月均交易金额',
+        'value': '14234.70'
+      },
+      {
+        'title': '经营年限',
+        'value': '5.08'
+      },
+      {
+        'title': '公司地址变更次数',
+        'value': '0'
+      },
+      {
+        'title': '法人变更次数',
+        'value': '0'
+      },
+      {
+        'title': '是否本地人',
+        'value': 'N'
+      }
+    ]
+  },
+  'bbgReport': {
+    'CreditDetail': {
+      'Loan': [
+        {
+          'ContractInfo': {
+            'Type': '个人消费贷款',
+            'PaymentCyc': '18',
+            'GuaranteeType': '信用/免担保',
+            'CreditLimitAmount': '3000',
+            'OpenDate': '2017-08-31',
+            'EndDate': '2019-02-02',
+            'PaymentRating': '按月归还'
+          },
+          'CurrAccountInfo': {
+            'Balance': '2311'
+          }
+        },
+        {
+          'ContractInfo': {
+            'Type': '个人消费贷款',
+            'PaymentCyc': '17',
+            'GuaranteeType': '信用/免担保',
+            'CreditLimitAmount': '3500',
+            'OpenDate': '2017-10-19',
+            'EndDate': '2019-02-18',
+            'PaymentRating': '按月归还'
+          },
+          'CurrAccountInfo': {
+            'Balance': '2333'
+          }
+        },
+        {
+          'ContractInfo': {
+            'Type': '个人消费贷款',
+            'PaymentCyc': '24',
+            'GuaranteeType': '信用/免担保',
+            'CreditLimitAmount': '20000',
+            'OpenDate': '2017-11-10',
+            'EndDate': '2019-11-10',
+            'PaymentRating': '按月归还'
+          },
+          'CurrAccountInfo': {
+            'ScheduledPaymentAmount': '19197',
+            'Balance': '19197'
+          }
+        },
+        {
+          'ContractInfo': {
+            'Type': '农户贷款',
+            'PaymentCyc': '12',
+            'GuaranteeType': '信用/免担保',
+            'CreditLimitAmount': '6000',
+            'OpenDate': '2019-02-11',
+            'EndDate': '2020-02-11',
+            'PaymentRating': '按月归还'
+          },
+          'CurrAccountInfo': {
+            'ScheduledPaymentAmount': '556',
+            'Balance': '5500'
+          }
+        },
+        {
+          'ContractInfo': {
+            'Type': '个人经营性贷款',
+            'PaymentCyc': '12',
+            'GuaranteeType': '信用/免担保',
+            'CreditLimitAmount': '10000',
+            'OpenDate': '2016-11-16',
+            'EndDate': '2017-02-15',
+            'PaymentRating': '按月归还'
+          }
+        },
+        {
+          'ContractInfo': {
+            'Type': '个人消费贷款',
+            'PaymentCyc': '24',
+            'GuaranteeType': '信用/免担保',
+            'CreditLimitAmount': '3000',
+            'OpenDate': '2017-06-13',
+            'EndDate': '2017-08-06',
+            'PaymentRating': '按月归还'
+          }
+        },
+        {
+          'ContractInfo': {
+            'Type': '个人消费贷款',
+            'PaymentCyc': '1',
+            'GuaranteeType': '信用/免担保',
+            'CreditLimitAmount': '3000',
+            'OpenDate': '2017-06-19',
+            'EndDate': '2017-07-10',
+            'PaymentRating': '按月归还'
+          }
+        },
+        {
+          'ContractInfo': {
+            'Type': '个人消费贷款',
+            'PaymentCyc': '1',
+            'GuaranteeType': '组合(不含保证)担保',
+            'CreditLimitAmount': '1200',
+            'OpenDate': '2017-11-03',
+            'EndDate': '2017-12-01',
+            'PaymentRating': '按月归还'
+          }
+        },
+        {
+          'ContractInfo': {
+            'Type': '个人经营性贷款',
+            'PaymentCyc': '12',
+            'GuaranteeType': '信用/免担保',
+            'CreditLimitAmount': '6500',
+            'OpenDate': '2018-09-20',
+            'EndDate': '2018-11-21',
+            'PaymentRating': '按月归还'
+          }
+        }
+      ]
+    },
+    'Header': {
+      'MessageHeader': {
+        'ReportCreateTime': '2019-04-18 19:45:48'
+      }
+    }
+  }
+}

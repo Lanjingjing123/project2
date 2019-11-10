@@ -1,0 +1,91 @@
+{
+  "applyInfo": {
+    "_id": "249162",
+    "userRealname": "钱",
+    "userIdcardNo": "9991"
+  },
+  "bbgScoreCardResult": {
+    "contentList": [
+      {
+        "title": "年龄",
+        "value": "28"
+      },
+      {
+        "title": "城市等级",
+        "value": "D"
+      },
+      {
+        "title": "性别",
+        "value": "女"
+      },
+      {
+        "title": "信用年限",
+        "value": "缺失"
+      },
+      {
+        "title": "违约账户数占比",
+        "value": "缺失"
+      },
+      {
+        "title": "近2年累计逾期次数",
+        "value": "缺失"
+      },
+      {
+        "title": "近一年银行机构批核率",
+        "value": "缺失"
+      },
+      {
+        "title": "非结清非抵押类贷款余额占比",
+        "value": "缺失"
+      },
+      {
+        "title": "3个月多头数",
+        "value": "3"
+      },
+      {
+        "title": "信用卡总额度",
+        "value": "缺失"
+      },
+      {
+        "title": "信用卡额度使用率",
+        "value": "缺失"
+      },
+      {
+        "title": "单笔非抵押类贷款最高额度",
+        "value": "缺失"
+      },
+      {
+        "title": "烟草客户档位",
+        "value": "缺失"
+      },
+      {
+        "title": "近1年月均交易金额",
+        "value": "缺失"
+      },
+      {
+        "title": "是否本地人",
+        "value": "N"
+      },
+      {
+        "title": "法人变更次数",
+        "value": "0"
+      },
+      {
+        "title": "公司地址变更次数",
+        "value": "1"
+      },
+      {
+        "title": "经营年限",
+        "value": "9.75"
+      }
+    ]
+  },
+  "bbgReport": {
+    "CreditDetail": {},
+    "Header": {
+      "MessageHeader": {
+        "ReportCreateTime": "2019-03-22 16:31:38"
+      }
+    }
+  }
+}

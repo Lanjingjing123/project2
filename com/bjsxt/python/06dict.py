@@ -16,6 +16,7 @@
 
 dict={"a":100,"b":200,"c":300}
 print(type(dict))
+print(dict.__len__())
 
 print(dict.keys())
 print(dict.values())
