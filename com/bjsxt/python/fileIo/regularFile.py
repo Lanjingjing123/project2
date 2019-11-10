@@ -29,12 +29,19 @@ def rePlaceStr( line ):
         print('result str is :' + line)
         return line
     if line.__contains__('userIdcardNo'):
-        str = re.search(r'("userIdcardNo" : ")(\d+)(")', line, re.M | re.I)
+        str = re.search(r'("userIdcardNo" : ")(\d+X|\d+)(")', line, re.M | re.I)
         userIdcardNo = str.group(2)
         randNum = random.randint(0, 1000000)
         line = line.replace(userIdcardNo,intTOstr(randNum))
         print('result str is :' + line)
         return line
+
+str1 = '"userIdcardNo" : "26X"'
+
+str1 = rePlaceStr(str1)
+print(str1)
+
+
 
 resultStr = ''
 
