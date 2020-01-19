@@ -45,26 +45,38 @@ def rePlaceStr( line ):
         Name = str.group(2)
         line = line.replace(Name, "未知")
         print('result str is :' + line)
+        return line
     if line.__contains__('TelephoneNo'):
+        if line.__contains__('HomeTelephoneNo'):
+            return line
+        if line.__contains__('OfficeTelephoneNo'):
+            return line
         str = re.search('("TelephoneNo" : )(.*)(")', line, re.M | re.I)
         TelephoneNo = str.group(2)
-        line = line.replace(TelephoneNo, "12345678901")
+        line = line.replace(TelephoneNo, "123xxx")
         print('result str is :' + line)
+        return line
     if line.__contains__('Certno'):
         str = re.search('("Certno" : )(.*)(")', line, re.M | re.I)
         Certno = str.group(2)
         line = line.replace(Certno, "12345678901")
         print('result str is :' + line)
+        return line
     if line.__contains__('Certtype'):
         str = re.search('("Certtype" : )(.*)(")', line, re.M | re.I)
         Certtype = str.group(2)
         line = line.replace(Certtype, "未知")
         print('result str is :' + line)
+        return line
     if line.__contains__('Employer'):
+        if line.__contains__('EmployerAddress'):
+            print('result str is :' + line)
+            return line
         str = re.search('("Employer" : )(.*)(")', line, re.M | re.I)
         Employer = str.group(2)
         line = line.replace(Employer, "未知")
         print('result str is :' + line)
+        return line
 str1 = '"userIdcardNo" : "26X"'
 
 # str1 = rePlaceStr(str1)
@@ -81,12 +93,22 @@ with open('test.txt', 'r', encoding='utf8') as lines:
         tempStr = line
         if line.__contains__('_id'):
             tempStr = rePlaceStr(line)
-
         if line.__contains__('userRealname'):
             tempStr = rePlaceStr(line)
         if line.__contains__('userIdcardNo'):
-            print(line)
             tempStr = rePlaceStr(line)
+        if line.__contains__('Employer'):
+            tempStr = rePlaceStr(line)
+        if line.__contains__('Certtype'):
+            tempStr = rePlaceStr(line)
+        if line.__contains__('Certno'):
+            tempStr = rePlaceStr(line)
+        if line.__contains__('TelephoneNo'):
+            tempStr = rePlaceStr(line)
+        if line.__contains__('Name'):
+            tempStr = rePlaceStr(line)
+        # print(">>>>>>>>>>>>>>>>>")
+        # print(tempStr)
         resultStr = resultStr + tempStr
         # resultFile.write(resultStr)
         pass
